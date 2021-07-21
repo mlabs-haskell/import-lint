@@ -33,3 +33,8 @@ executable importlinter
     hs-source-dirs:   app
     default-language: Haskell2010
     default-extensions: RecordWildCards
+    ghc-options:
+        -Wall
+        -Wcompat
+        -Widentities
+        -Wincomplete-uni-patterns
